@@ -7,7 +7,7 @@ class ShoePreview extends React.Component {
 
     return (
       <div>
-        <img width="100" height="50" src={this.props.shoeImg} alt="Shoes" />
+        <Image shoeImg={this.props.shoeImg} />
         <h4>{this.props.shoeName}</h4>
       </div>
     );
